@@ -1,0 +1,91 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+body{
+	margin:0;
+	padding:0;
+	background-image: url(img/login.jpg);
+	background-size: cover;
+	
+}
+.zhuozi{
+	width: 700px;
+	height: 640px;
+	position: relative;
+	margin:0 auto;
+	margin-top: 20px;
+}
+
+.zhuozi .pai{
+	cursor: pointer;
+	width: 90px;
+	height: 120px;
+	background: pink;
+	position:absolute;
+	border-radius: 2px;
+	top:0;
+	left:305px;
+	box-shadow: 1px 2px 1px #cda;
+}
+.zhuozi .pai .zuo {
+	width: 90px;
+	height: 120px;
+	background: pink;
+	position: absolute;
+	top:0px;
+	left:305px;
+}
+.zhuozi .left,.zhuozi .right{
+	cursor: pointer;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left:50%;
+    margin-left: -50px;
+    top:82%;
+    border: 2px solid pink;
+    border-radius: 10px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 30px;
+    z-index: 2;
+}
+.zhuozi .left{
+	background: #FD3569;
+	border: 2px solid #21211C;
+	color:#fff;
+}
+.zhuozi .left:hover{
+	background: #7D48B0;
+	border: 2px solid #0E1329;
+	color:#101A09;
+}
+
+.zhuozi .right{
+	margin-top:40px;
+	background: #FD3569;
+	border: 2px solid #21211C;
+	color:#fff;
+}
+
+.zhuozi .right:hover{
+	margin-top:40px;
+	background: #7D48B0;
+	border: 2px solid #0E1329;
+	color:#101A09;
+}
+.box{
+	width: 90px;
+	height: 120px;
+	position: absolute;
+	left:450px;
+	top:500px;
+}
+
+
+
+
+
